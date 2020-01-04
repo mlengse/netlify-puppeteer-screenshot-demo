@@ -1,0 +1,16 @@
+{
+  "name": "netlify-puppeteer",
+  "version": "1.0.0",
+  "description": "My striking Nuxt.js project",
+  "author": "mlengse",
+  "private": true,
+  "scripts": {
+    "build": "netlify-lambda build functions/take-screenshot",
+    "postinstall": "netlify-lambda install"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^2.0.2",
+    "netlify-lambda": "^1.6.3",
+    "puppeteer-core": "^2.0.0"
+  }
+}
