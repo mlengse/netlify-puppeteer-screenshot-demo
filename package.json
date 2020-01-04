@@ -5,7 +5,7 @@
   "author": "mlengse",
   "private": true,
   "scripts": {
-    "build": "netlify-lambda build functions/take-screenshot",
+    "build": "netlify-lambda build functions/take-screenshot && npm run postinstall",
     "postinstall": "netlify-lambda install"
   },
   "dependencies": {
